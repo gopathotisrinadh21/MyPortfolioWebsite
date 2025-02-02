@@ -1,0 +1,256 @@
+body {
+    margin: 0px 200px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+nav {
+    position: fixed;
+    top: 2;
+    left: 200px; 
+    width: calc(100% - 400px); 
+    z-index: 1000;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(233, 230, 236);
+    border-radius: 10px;
+    border-bottom: solid orange;
+    display: flex;
+    align-items: center;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    font-size: 1.0rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: rgb(207, 138, 11);
+}
+
+/* Style for the home icon */
+.home-icon {
+    margin-left: auto; 
+}
+
+.home-icon a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.home-icon i {
+    font-size: 1.5rem; 
+    color: black; 
+}
+
+.home-icon a:hover i {
+    color:  rgb(207, 138, 11);; 
+}
+
+section {
+    min-height: 100vh;
+    padding: 60px 20px; 
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.home {
+    display: inline;
+}
+.img{
+    float: left;
+    height: 500px;
+    width: 500px;
+}
+.home-right {
+    padding: 200px 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.home-right h2{
+    color: rgb(112, 7, 112);
+    font-size: 2.5rem;
+}
+.home-right p {
+    font-size: 1.5rem;
+    color: grey;
+}
+#about p{
+    font-size: 18px;
+    text-align: justify;
+}
+#about h2{
+    font-size: 35px;
+    color: rgb(184, 6, 211);
+}
+.btn {
+    background-color: rgb(203, 22, 244);
+    height: 50px;
+    width: 170px;
+    border-radius: 10px;
+}
+.btn:hover {
+    background-color: rgb(179, 117, 1);
+}
+.btn-1 {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+}
+#education h2 {
+    font-size: 35px;
+    color: rgb(184, 6, 211);
+}
+#internship h2{
+    font-size: 35px;
+    color: rgb(184, 6, 211);
+}
+#skills h2 {
+    font-size: 35px;
+    color: rgb(184, 6, 211);
+}
+#projects h2 {
+    font-size: 35px;
+    color: rgb(184, 6, 211);
+}
+#contact h2 {
+    font-size: 35px;
+    color: rgb(184, 6, 211);
+}
+.contents .box{
+    margin: 0px 150px;
+    text-align: justify;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    border: 1px solid #eaeaea;
+    background-color: #ffffff;
+    cursor: pointer;
+    transition: all 0.4s;
+    margin-bottom: 20px;
+}
+.contents .box:hover {
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border: 1px solid transparent;
+}
+p { 
+    font-size: 15px; 
+} 
+
+.container { 
+    background-color: rgb(192, 192, 192); 
+    margin: 0px 250px;
+    width: 50%; 
+    border-radius: 15px; 
+} 
+
+.skill { 
+    background-color: rgb(210, 112, 37); 
+    color: white; 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 15px; 
+    border-radius: 15px; 
+} 
+.python {
+    width: 80%;
+}
+.java {
+    width: 65%;
+}
+.Sql {
+    width: 85%;
+}
+.html {
+    width: 80%;
+}
+.css {
+    width: 70%;
+}
+.javaScript {
+    width: 65%;
+}
+.container .skill:hover {
+    box-shadow: 0px 3px 12px 0px #ccc;
+    border: 1px solid transparent;
+}
+footer {
+    background-color: rgb(49, 49, 49);
+    color: white;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 5px;
+    font-size: 40px;
+    border-radius: 15px;
+}
+input[type=text],input[type=email] , textarea {
+    width: 50%;
+    padding: 12px;
+}
+button[type=submit] {
+    background-color: rgb(210, 112, 37);
+    height: 40px;
+    width: 100px;
+    color: white;
+    font-size: 18px;
+}
+.contact-form {
+    margin: 0px 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 450px;
+    text-align: center;
+}
+.contact-form h2 {
+    margin-bottom: 15px;
+    color: #333;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px -20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.contact-form button {
+    background-color: #a77428;
+    color: white;
+    padding: 10px;
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contact-form button:hover {
+    background-color: #d2c1ae;
+}
+.links {
+    text-indent: 10px;
+}
+.mail {
+    font-size: 20px;
+    color: rgb(147, 61, 7);
+}
